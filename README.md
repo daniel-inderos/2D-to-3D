@@ -20,4 +20,4 @@ pip install opencv-python
 To use this script, simply run it with Python. Make sure you have a video file named `input_video.mp4` in the same directory as the script, or modify the script to point to the location of your video file.
 
 ## Note
-When viewing the output video in a VR headset set to side-by-side video, the 3d video might look distorted. If anyone knows how to fix it let me know.
+When viewing the output video in a VR headset set to side-by-side video, the 3d video might look distorted. If anyone knows how to fix it let me know in the Issues section.
