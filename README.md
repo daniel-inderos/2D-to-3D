@@ -1,20 +1,20 @@
-# 2D to 3D video converter
+# 2D to 3D Video Converter
 
 ## Overview
-This Python script uses OpenCV to manipulate video frames by resizing and cropping the input video, then outputting the processed frames side by side in a new video file. This essentialy turns a 2d video to a 3d video and can be viewed in a Virtual Reality (VR) headset.
+This Python script uses ffmpeg to convert a 2D video into a side-by-side 3D video format suitable for viewing in a Virtual Reality (VR) headset. It processes the input video by resizing, cropping, and shifting the frames to create a stereoscopic effect.
 
 ## Features
-- **Resize Video Frames:** Increase the size of the video frames by a factor of 1.2.
-- **Crop Video Frames:** Crop the left and right parts of the resized frame.
-- **Combine Frames:** Place the cropped left and right frames side by side in the output video.
+- **Interactive Input:** Prompts the user for the input video file path.
+- **Automatic Output:** Saves the output video in the same directory as the script.
+- **Customizable Parameters:** Allows users to set custom zoom and shift values.
+- **VR-Ready Output:** Creates a side-by-side 3D video compatible with VR headsets.
 
 ## Prerequisites
 Before you can run this script, you'll need to have the following installed:
 - Python 3.x
-- OpenCV library for Python
+- ffmpeg-python library
 
-You can install OpenCV using pip:
-pip install opencv-python
+You can install the required library using pip:
 
 ## Usage
 To use this script, simply run it with Python. Make sure you have a video file named `input_video.mp4` in the same directory as the script, or modify the script to point to the location of your video file.
